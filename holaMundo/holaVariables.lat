@@ -1,0 +1,7 @@
+// Así escribimos los comentarios en el programa 
+
+//Voy a definir una variable
+nombre = 'David'
+
+//Imprimir un saludo a la variable
+escribir('Hola ' ..nombre) //Para concatenar LATINO usa puntos dobles (..) el símbolo de más (+) es solamente para sumas
