@@ -11,3 +11,17 @@ Puedes ver el archivo [Ver archivo](https://github.com/davidlealo/aprendiendoLat
 ### Imprimir saludo con variable
 En este segundo ejercicio probé el uso de variables, de comentarios y como concatenar en Latino. Pensé que se concatenaba con (+) pero no resultó, porque eso está reservado para números. Así que concatené con puntos dobles (..)
 Puedes verl el archivo [Ver Archivo](https://github.com/davidlealo/aprendiendoLatino/blob/main/holaMundo/holaVariables.lat)
+
+# Variables y tipos de datos
+
+Analizaremos el uso de variables y tipos de datos en LATINO
+
+### Tipos de datos
+En LATINO encontramos seis tipos de datos distintos: Lógico
+Numérico (decimal)
+Cadena
+lista (matriz)
+diccionario
+Nulo
+
+A continuación puedes ver un archivo con esos tipos de datos probados y explicados uno a uno [Ver Archivo](https://github.com/davidlealo/aprendiendoLatino/blob/main/02_variables/tiposDatos.lat)
