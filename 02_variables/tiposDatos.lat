@@ -1,0 +1,20 @@
+/*
+En LATINO tenemos los siguientes tipos de datos:
+
+Lógico
+Numérico (decimal)
+Cadena
+lista (matriz)
+diccionario
+Nulo
+
+*/
+
+//Lógico
+//Es X igual a Y o será X igual a Z
+
+x = 5
+y = 5
+z = 6
+escribir(x == y)       // Devolverá un valor verdadero
+escribir(x == z)       // Devolverá un valor falso
