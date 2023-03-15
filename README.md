@@ -17,11 +17,11 @@ Puedes verl el archivo [Ver Archivo](https://github.com/davidlealo/aprendiendoLa
 Analizaremos el uso de variables y tipos de datos en LATINO
 
 ### Tipos de datos
-En LATINO encontramos seis tipos de datos distintos: Lógico
-Numérico (decimal)
-Cadena
-lista (matriz)
-diccionario
-Nulo
+En LATINO encontramos seis tipos de datos distintos: Lógico, 
+Numérico (decimal), 
+Cadena, 
+lista (matriz), 
+diccionario y 
+Nulo.
 
 A continuación puedes ver un archivo con esos tipos de datos probados y explicados uno a uno [Ver Archivo](https://github.com/davidlealo/aprendiendoLatino/blob/main/02_variables/tiposDatos.lat)
