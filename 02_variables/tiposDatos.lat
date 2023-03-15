@@ -12,9 +12,117 @@ Nulo
 
 //Lógico
 //Es X igual a Y o será X igual a Z
+# Ejemplo del mismo sitio de LATINO https://manual.lenguajelatino.org/es/stable/sintaxis/Tipos-de-Datos.html con añadido
 
+escribir('Tipos de datos en latino: LÓGICOS')
 x = 5
 y = 5
 z = 6
 escribir(x == y)       // Devolverá un valor verdadero
 escribir(x == z)       // Devolverá un valor falso
+
+//Numérico
+
+escribir('Tipos de datos en latino: NUMÉRICOS')
+num1 = 34.00
+num2 = 34
+
+escribir(num1)
+escribir(num2)
+
+//También se pueden escribir datos en notación científica
+a = (7*10^2)        //Devolverá 700
+escribir(a)
+b = (4.9*10^9)      //Devolverá 4,900,000,000
+escribir(b)
+c = (5.5*10^-3)     //Devolverá 0.0055
+escribir(c)
+d = (2.56*10^-6)    //Devolverá 2.56e-06
+escribir(d)
+
+//Cadena
+escribir('Tipos de datos en latino: CADENA')
+persona1 = "Bill Gates"                //Uso de comillas dobles
+escribir(persona1)
+
+persona2 = 'Steve Jobs'                //Uso de comillas simples
+escribir(persona2)
+
+
+respuesta1 = "Su nombre es 'Bill'"     //Uso de las comillas simples dentro de comillas dobles
+escribir(respuesta1)
+
+respuesta2 = 'Su nombre es "Steve"'    //Uso de las comillas dobles dentro de comillas simples
+escribir(respuesta2)
+
+
+//Lista
+escribir('Tipos de datos en latino: LISTA')
+
+/*
+Al definir la lista:
+
+marcaAuto = ["Nissan", "Volvo", "BMW"]
+
+Los elementos de la lista son enumerados consecutivamente partiendo del número cero (0)
+*/
+marcaAuto = ["Nissan", "Volvo", "BMW"]
+escribir(marcaAuto[0])     //[0]Devolverá Nissan
+escribir(marcaAuto[1])     //[1]Devolverá Volvo
+escribir(marcaAuto[2])     //[2]Devolverá BMW
+
+//DICCIONARIO
+escribir('Tipos de datos en latino: DICCIONARIO')
+/*
+Los tipos de datos de diccionarios u objetos se escriben entre llaves { } y sus propiedades se escriben «propiedad» : «Valor» y cada propiedad con su valor están separadas por comas.
+
+*/
+
+/*
+En este ejemplo se creara un diccionario
+con algunas propiedades para luego ser escritas en pantalla
+*/
+
+persona =  {"nombre": "Melvin", "apellido": "Guerrero", "edad": 50, "etimología": "Latino"}
+escribir(persona.nombre)     //Devolverá Melvin
+escribir(persona.nombre .." " ..persona.apellido)     //Devolverá Melvin Guerrero
+
+//Nulo
+escribir('Tipos de datos en latino: NULO')
+persona = nulo
+escribir(persona)     //Devolverá un valor nulo
+
+/*
+En Latino una variable con valor nulo no es igual a una variable con valor indefinido.
+
+Las variables con valor indefinido son imposibles de declarar(crear) en Latino ya que las variables requieren ser asignadas a un valor al momento de estas ser declaradas, de lo contrario Latino solo las omitirá.
+
+De todas maneras si se pueden llegar a crear variables con valor vacío de la siguiente manera:
+*/
+persona = ""
+escribir(persona)     //Devolverá un espacio en blanco
+
+/*
+Diferencia entre un valor vacío y un nulo
+Un valor vacío y un valor nulo en primera instancia puede que aparenten ser lo mismo ya que nos permite asignar un valor no definido a una variable, pero internamente son totalmente distintas.
+
+x = ""              //Este valor al llevar comillas es una cadena
+y = nulo            //Este valor es nulo
+escribir(x == y)    //Devolverá un valor falso
+
+*/
+
+/*
+Operador «tipo()»
+En Latino podemos usar el operador tipo() para saber el tipo de dato que lleva un objeto o una variable.
+
+x = ""
+y = nulo
+escribir(tipo(x))     //Devolverá un valor de cadena
+escribir(tipo(y))     //Devolverá un valor nulo
+*/
+
+t = ""
+f = nulo
+escribir(tipo(t))     //Devolverá un valor de cadena
+escribir(tipo(f))     //Devolverá un valor nulo
